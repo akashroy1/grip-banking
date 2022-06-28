@@ -55,7 +55,7 @@ app.get('/bank/viewCustomer/:id', async (req, res) => {
 
 app.get('/bank/viewTransactions', async (req, res) =>{
     const transactions = await Transfer.find({});
-    console.log(transactions);
+    // console.log(transactions);
     res.render('transactions',{transactions});
 })
 
