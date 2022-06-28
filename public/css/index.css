@@ -178,7 +178,8 @@ td{
 }
 
 .homeBtns{
-    background-color: rgb(255, 245, 188);
+    background-color: rgb(113, 50, 221);
+    color: beige;
     font-size:1.5rem;
     padding:0.5rem 1rem;
     margin:0rem 1rem;
@@ -188,7 +189,7 @@ td{
 }
 
 .homeBtns:hover{
-    background-color:rgb(222, 144, 0);
+    background-color: rgba(0, 0, 0, 0.637);
     color:white;
     box-shadow: 0rem 0.15rem 0.6rem 0.1rem rgba(255, 255, 255, 0.444);
 }
