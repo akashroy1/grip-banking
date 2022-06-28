@@ -11,10 +11,6 @@ const dbUrl = process.env.DB_URL
 
 const app = express()
 
-app.get('/test', (req, res)=> [
-    res.send("The server is working fine.")
-])
-
 mongoose.connect("mongodb+srv://tester:admin@cluster0.pisnnss.mongodb.net/?retryWrites=true&w=majority", {
     useNewUrlParser:true,
     useUnifiedTopology:true,
